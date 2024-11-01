@@ -1,0 +1,41 @@
+.main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 754px){
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: top;
+  }
+}
+
+.logo{
+  width: 100%;
+  height: 140px;
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 30px;
+  @media (min-width: 754px){
+    height: 170px;
+    padding-top: 50px;
+  }
+}
+
+.logo__img{
+  width: 60px;
+  height: 60px;
+}
+
+.spin{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+  @media (min-width: 754px){
+    top: 135px;
+  }
+}
